@@ -1,6 +1,10 @@
 // Code CoordinatesButton Component Here
-class CoordinatesButton extends React.Component {
+import React, { Component } from 'react';
+
+export default  class CoordinatesButton extends Component {
     render() {
-      return <h1>Hello, {this.props.name}</h1>;
+      return (
+        <button>Click Me</button>
+      )
     }
   }
